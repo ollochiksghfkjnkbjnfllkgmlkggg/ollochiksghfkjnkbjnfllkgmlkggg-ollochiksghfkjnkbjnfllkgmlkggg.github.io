@@ -1,0 +1,153 @@
+
+body {
+  font-family: Source Code Pro, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FFFFFF;
+  color: #FF2E2E;
+  padding: 20px;
+}
+ 
+li:hover{
+	font-size: 25px;
+}
+
+	
+
+header h1 {
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+}
+
+nav {
+  border: 1px solid #E9E9E9;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #FF2E2E;
+}
+h2{
+	background-color: #FFFFFF;
+    color: #333333;
+	font-size: 15px;
+    padding: 20px;
+	font-family:Arial;
+	
+   
+  
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+.dostavka-card{	
+	border: 1px solid #E9E9E9;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.dostavka-card .dostavka-title {
+	background-color: #FFFFFF;
+    color: #333333;
+	font-size: 25px;
+	font-family:Arial;
+	padding: 20px;
+	font-weight: 700;
+}
+
+.dostavka-card .dostavka-description{
+	background-color: #FFFFFF;
+    color: #333333;
+	font-size: 15px;
+	font-family:Arial;
+	
+}
+
+.inst-card{	
+	border: 1px solid #E9E9E9;
+	margin-top: 80px;
+}
+
+.inst-card .inst-title {
+	background-color: #FFFFFF;
+    color: #333333;
+	font-size: 25px;
+	font-family:Arial;
+	padding: 20px;
+	font-weight: 700;
+}
+.inst-card .inst-image {
+    width: 80%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.kontact-card{	
+	margin-top: 80px;
+}
+
+.kontact-card .kontact-title {
+	background-color: #FFFFFF;
+    color: #333333;
+	font-size: 25px;
+	font-family:Arial;
+	padding: 20px;
+	font-weight: 700;
+}
+
+.kontact-card .kontact-description{
+	background-color: #FFFFFF;
+    color: #333333;
+	font-size: 20px;
+	font-family:Arial;
+	font-weight: 700;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+ 
+.social-icons a {
+  margin: 0 10px;
+}
+ 
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+ 
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
+
+td {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-right: 40px;
+}

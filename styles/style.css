@@ -1,0 +1,69 @@
+a.no-underline {
+    text-decoration: none;
+	color: #333333;
+}
+
+/* Нормализация стилей */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+.product-card {
+    width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card .product-image {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-card .product-title {
+    margin: 20px 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+	 color: #FF2E2E;
+}
+
+.product-card .product-price {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+	 color: #FF2E2E;
+}
+
+.product-card .product-description {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.product-card .product-action {
+    margin-top: 20px;
+}
+
+.product-card .product-action a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+	 background-color: #FF2E2E;
+
+}
+
+.product-card .product-action a:hover {
+    background-color: #f4f4f4;
+}
